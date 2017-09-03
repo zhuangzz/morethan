@@ -1,0 +1,47 @@
+ .header{
+        width:100%;
+        /*s*/
+        background-color: #2b2e33;
+        margin:0 auto;
+     }
+    .headero{
+    	width: 1100px;
+    	margin: 0 auto;
+        
+    }
+     .nav{
+        width: 51px;
+        height: 90px;
+        background-image: url(../images/left_02.png);
+        background-repeat: no-repeat;
+        float:left;
+     }
+     .navon{
+        width: 193px;
+        height: 90px;
+        background-image: url(../images/zhong_04.jpg);
+        background-repeat: no-repeat;
+        float:left;
+        margin-left: 400px
+     }
+     .navright{
+        float:right;
+     }
+    
+     .navright>a{
+        display: block;
+        margin-top: 15px;
+        margin-right: 45px;
+       padding-top: 10px;
+        float:left;
+        
+        
+     }
+    
+     .navright>span a{
+       line-height: 90px;
+       text-decoration: none;
+        color:#595c61;
+        float:right;
+
+     }

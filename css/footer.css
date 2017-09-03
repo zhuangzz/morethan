@@ -1,0 +1,95 @@
+footer{
+    width: 100%;
+    
+    background-color: #000;
+   
+  } 
+  .foter{
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 50px
+  }
+   .foter .fotero{
+    width: 245px;
+    float:left;
+    margin-left: 25px
+   }
+  .foter h3{
+   color: #fff;
+   padding-top: 60px;
+   line-height: 40px
+  }
+  .foter .fotero ul{
+   float: left;
+   list-style: none
+  }
+  .foter .fotero ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px
+  }
+  .foter .fotero ul:nth-child(2){
+   
+    margin-right: 40px
+  }
+  .foter .fotert{
+    width: 240px;
+    float: left;
+    margin-left: 155px
+  }
+  .foter .fotert img:nth-child(3){
+   margin-left: 20px
+  }
+  .foter .fotert img:nth-child(4){
+    margin-left: 25px;
+    margin-right: 80px
+  }
+  .foter .foters{
+   /* width: 210px;*/
+    color: #fff;
+    margin-left: 185px;
+    float: left;
+    position: relative;
+
+  }
+  .foter .foters i{
+    position: absolute;
+    font-size:70px;
+     left:-70px;
+      top:80px;
+  }
+   footer i{
+    color: #fdd900;
+    margin-right: 10px
+  }
+  .foter .foters span:nth-child(3){
+    display: block;
+    font-size: 25px
+  }
+  .foterw img{
+    float:left;
+  }
+  .foterw{
+    width: 100%;
+  color:#979494;
+    background-color:#2b2e33;
+  }
+  .foterws{
+    width: 1100px;
+      margin: 0 auto;
+  }
+  .foterw .foterwo{
+    float:right;
+  }
+  .foterw .foterwo span{
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+  }
+  .foterw .foterwo span:nth-child(2){
+    margin-bottom: 20px;
+    float:right;
+  }
+  .foterw .foterwo span:nth-child(1){
+    margin-top: 30px
+  }

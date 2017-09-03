@@ -1,0 +1,247 @@
+      html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.clearfix{*zoom:1;}
+.clearfix:before,
+  .clearfix:after {       
+    content: "";     
+    display: block;   
+    clear: both;     
+    visibility: hidden;   
+    line-height: 0;    
+    height: 0;     
+    font-size:0;    }
+
+ @font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:25px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("../images/bgbg_03.jpg");
+}
+.wrap{
+	width: 1200px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.up>.up-u{
+	overflow:hidden; 
+}
+.up>.up-u>h2{
+	font-size: 30px;
+	line-height: 60px;
+	margin-top: 16px;
+	margin-left: 45px;
+}
+.up-u{
+	background-color: #fdd900;
+}
+.up>img{
+	margin-bottom: 6px;
+}
+.goods{
+	width: 1100px;
+	margin: 0 auto;
+	border-top:2px solid #babec9;
+	border-bottom:2px solid #babec9 ;
+}
+.goods .img{	
+	margin: 10px;
+	float: left;
+}
+.goods .title{
+	float: left;
+	margin-top: 19px;
+	padding-top: 18px;
+	border-right: 2px solid #fdd900;
+}
+
+.goods .title a{
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	width: 236px;	
+	line-height: 20px;
+	color: #2a2d32;
+	margin-right: 21px;
+	margin-bottom: 14px;
+}
+.goods .title a:hover{
+	text-decoration: underline;
+	color: hotpink;
+}
+.goods .detail{
+	float: left;
+	margin-left: 21px;
+	color: #6f7277;
+	line-height: 23px;
+	margin-top: 24px;
+}
+.goods .goback,.goods .gocount{
+	display: block;
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	line-height: 46px;
+	color: #010000;
+	font-size: 18px;
+	background-color: #fdd900;
+	margin-top: 34px;
+	}
+.goods .goback{
+	width: 132px;
+	margin-right: 10px;
+}
+.goods .gocount{
+	width: 210px;
+	margin-right: 11px;
+}
+.goods .goback:hover{
+	background-color: #2b2e33;
+	color: #fff;
+	} 
+
+.goods .gocount:hover{
+	background-color: #2b2e33;
+	color: #fff;
+}
+.down{
+	width: 1100px;
+	margin: 0 auto;
+}
+.down h4{
+	float: left;
+	margin-top: 49px;
+	line-height: 76px;
+	margin-right: 9px;
+	font-size: 18px;
+	color: #2d2d35;
+}
+.down  .line{
+	float: left;
+	display: block;
+	width: 978px;
+	height: 2px;
+	background-image: url("../images/arrcar-line_11.jpg");
+	background-repeat: repeat-x;
+	margin-top: 86px;
+}
+/*商品完*/
+
+
+/*down 开始*/
+.other{
+	/*display: block;*/
+
+}
+.other li{
+	width: 195px;
+	border:1px solid #d1d7e3;
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+	box-sizing: border-box;
+	margin-bottom: 122px;
+}
+.other li:first-child{
+	margin-left: 0px;
+}
+.other .othimg{
+	display: block;
+	margin-bottom: 7px;
+}
+.other .title2{
+	display: block;
+	line-height: 18px;
+	margin-left: 11px;
+	width: 137px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #272727;
+
+}
+.other .title2:hover{
+	text-decoration: underline;
+	color: hotpink;
+}
+.other .price{
+	display: block;
+	float: left;
+	padding-left: 11px;
+	color: red;
+	font-size: 19px;	
+	width: 77px;
+	margin-top: 44px;
+}
+.other .addbag{
+	float: right;
+	margin-top: 44px;
+	margin-right: 10px;
+	display: block;
+	width: 66px;
+	line-height: 25px;
+	/*padding:2px 24px;*/
+	border: 2px solid #ffd801;
+	margin-bottom: 10px;
+}
+.other .addbag img{
+	margin-top: 2px;
+	margin-left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

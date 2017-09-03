@@ -1,0 +1,45 @@
+    html, body {
+        position: relative;
+        /*height: 100%;*/
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 1200px;
+        margin: 0 auto; 
+        background-image: url("../images/banbg2_03.jpg");
+        padding:28px 50px;
+   
+    }
+    .swiper-slide {
+        
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .left,.right{
+        width: 32px;
+        height: 100px;
+        
+        color: #fcd901;
+        text-align: center;
+        font-size: 50px;
+        line-height: 100px;
+        background-color: rgba(75,68,16,0.6);
+    }
